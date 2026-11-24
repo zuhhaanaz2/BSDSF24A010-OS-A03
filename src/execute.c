@@ -196,6 +196,7 @@ int handle_builtin(char** arglist) {
         printf("  help            - show this help message\n");
         printf("  history         - display command history\n");
         printf("  jobs            - list active background jobs\n");
+        printf("  set             - display all shell variables\n");
         return 0;
     }
     else if (strcmp(arglist[0], "jobs") == 0) {
